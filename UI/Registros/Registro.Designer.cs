@@ -167,7 +167,7 @@
             // 
             // FechaIngresoDateTimePicker
             // 
-            this.FechaIngresoDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.FechaIngresoDateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.FechaIngresoDateTimePicker.Location = new System.Drawing.Point(134, 341);
             this.FechaIngresoDateTimePicker.Name = "FechaIngresoDateTimePicker";
             this.FechaIngresoDateTimePicker.Size = new System.Drawing.Size(260, 20);

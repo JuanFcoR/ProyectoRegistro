@@ -16,9 +16,11 @@ namespace Registro3.UI.Registros
 {
     public partial class Registro : Form
     {
+
         public Registro()
         {
             InitializeComponent();
+            FechaIngresoDateTimePicker.Value.ToString("yyyy/MM/dd");
 
         }
         private void limpiar()
