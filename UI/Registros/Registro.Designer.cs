@@ -105,6 +105,7 @@
             this.NombresTextBox.Name = "NombresTextBox";
             this.NombresTextBox.Size = new System.Drawing.Size(260, 20);
             this.NombresTextBox.TabIndex = 6;
+            this.NombresTextBox.TextChanged += new System.EventHandler(this.NombresTextBox_TextChanged);
             // 
             // EmailTextBox
             // 

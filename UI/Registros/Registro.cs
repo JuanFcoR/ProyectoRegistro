@@ -169,5 +169,10 @@ namespace Registro3.UI.Registros
             else
                 SuperErrorProvider.SetError(UsuarioIdnumericUpDown,"No se puede eliminar una persona que no existe");
         }
+
+        private void NombresTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
