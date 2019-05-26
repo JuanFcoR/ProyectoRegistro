@@ -14,10 +14,10 @@ using System.Data.Entity;
 
 namespace Registro3.UI.Registros
 {
-    public partial class Registro : Form
+    public partial class rUsuarios : Form
     {
 
-        public Registro()
+        public rUsuarios()
         {
             InitializeComponent();
             FechaIngresoDateTimePicker.Value.ToString("yyyy/MM/dd");
@@ -170,9 +170,6 @@ namespace Registro3.UI.Registros
                 SuperErrorProvider.SetError(UsuarioIdnumericUpDown,"No se puede eliminar una persona que no existe");
         }
 
-        private void NombresTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+     
     }
 }
