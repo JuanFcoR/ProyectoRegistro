@@ -95,6 +95,25 @@ namespace Registro3.BLL
             return cargos;
         }
 
+        public static List<Cargos> GetList(Expression<Func<Cargos,bool>>expression)
+        {
+            List<Cargos> Cargo = new List<Cargos>();
+            ContextCargo contextoCargo = new ContextCargo();
+
+            try
+            {
+                contextoCargo.Cargos.Where(expression).ToList();
+                contextoCargo.Dispose();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+
+            return Cargo;
+        }
+
 
     }
 }

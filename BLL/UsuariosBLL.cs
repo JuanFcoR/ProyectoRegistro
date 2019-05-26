@@ -101,6 +101,7 @@ namespace Registro3.BLL
             try
             {
                 Usuario = contexto.Usuarios.Where(expression).ToList();
+                contexto.Dispose();
             }
             catch(Exception)
             {
